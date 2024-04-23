@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-family:Inter Tight;
+    
+    
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 0px;
+}
+
+.navegacao__titulo{
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    color: #3A404E;
+    margin:0 0px 0 0;
+    
+}
+
+.navegacao__paginas{
+    box-sizing: border-box;
+    display: flex;
+    gap: 32px;
+}
+
+.navegacao__paginas__links{
+    text-decoration: none;
+    color: #667085;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navegacao__acesso__botao{
+    text-decoration: none;
+    padding: 10px 18px;
+    color: #667085;
+
+}
+.navegacao__acesso__botao__cadastrar{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #8E2424;
+    border-radius: 8px;
+    padding: 10px 18px;
+}
+
+.sobrenos{
+    height: 72px;
+    text-align: center;
+    width: 100%;
+    height: 407px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sobrenos__sobrenos{
+    color:#8E2424;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.sobrenos__titulo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+.paragrafo{
+    box-sizing: border-box;
+    color: #667085;
+    font-size: 20px;
+    padding: 12px 0 12px 0;
+    margin: 0 430px;
+    text-align: center;
+}
+
+.metricas__container{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: repeat(1, 192px);
+    grid-template-columns: repeat(4, 280px);
+    gap: 0 32px;
+    justify-content: center;
+    padding-bottom: 96px;
+}
+
+.metricas__titulo{
+    font-size: 60px;
+    color: #8E2424;
+    padding-bottom: 12px;
+}
+
+.metricas__subtitulo{
+    font-weight: bold;
+    font-size: 18px;
+    color:#101828;
+    margin-bottom: 8px;
+}
+
+.metricas__paragrafo{
+    color: #667085;
+    font-weight: 16px;
+    margin-bottom: 24px;
+    
+}
+
+.apresentacao__vagas{
+    padding-top: 96px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.apresentacao__vagas__abertas{
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: hsl(0, 60%, 35%, 0.1);
+    border-radius: 16px;
+    width: 125px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentacao__vagas__titulo{
+    color:#101828;
+    padding-bottom: 4px;
+    font-size: 36px;
+}
+
+.apresentacao__vagas__descricao{
+    color: #667085;
+    padding-bottom: 48px;
+    font-size: 20px;
+}
+
+.image{
+    padding-bottom: 64px;
+}
+
+.vagas__disponiveis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 96px;
+}
+
+.vagas__titulo{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 32px;
+    color:#101828;
+    padding-top: 64px;
+
+}
+
+.container__vagas{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.vagas__informacoes{
+    color: #667085;
+    box-sizing: border-box;
+    padding: 24px 24px 24px 24px;
+    border: solid #EAECF0 2px;
+    border-radius: 16px;
+    display: grid;
+    grid-template-rows: auto 0 auto;
+    grid-template-columns: none;
+    height: 136px;
+    width: 768px;
+}
+
+.vagas__cargo{
+    font-size: 18px;
+    color:#101828;
+    font-weight: 500;
+    gap: 24px;
+}
+
+.vagas__cargo__detalhes{
+    display: flex;
+    gap: 24px;
+}
+
+.container__depoimentos{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 96px;
+}
+
+.depoimentos{
+    width: 1216px;
+    height: 404px;
+    background-color: hsl(0, 77%, 43%, 0.03);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.depoimentos__conteudo{
+    
+    width: 1088px;
+    height: 124px;
+    padding: 64px 64px 64px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.depoimento__cabecalho{
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.depoimento__colaborador{
+    font-size: 36px;
+    color: #101828;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.depoimento__colaborador__detalhe{
+    box-sizing: content-box;
+    width: 1088px;
+    height: 120px;
+    padding: 0 63.55px 64px 63.55px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.depoimento__colaborador__avatar{
+    width: 56px;
+    height: 56px;
+    padding-bottom: 11.59px;
+}
+
+.depoimento__colaborador__nome{
+    color: #101828;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.depoimento__colaborador__cargo{
+    font-size: 14px;
+    color: #667085;
+}
+
+footer{
+    box-sizing: border-box;
+    background-color: #F9FAFB;
+    height: 430px;
+    padding: 96px 0px 96px 0px;
+    text-align: center;
+}
+
+
+.rodape__oportunidades{
+    font-size: 36px;
+    font-weight: 600;
+    color: #101828;
+    padding-bottom: 20px;
+}
+
+.rodape__descricao{
+    font-size: 20px;
+    color: #667085;
+    padding-bottom: 40px;
+}
+
+
+.rodape__direitosreservados{
+    font-size: 16px;
+    color: #98A2B3;
+    padding-top: 32px;
+}
+
+.email{
+    outline: unset;
+    width: 360px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.botao__cadastro{
+    width: 116px;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: #8E2424;
+    border-radius: 8px;
+    border: 1px;
+    font-size: 16px;
+    font-weight: 400;
+}
